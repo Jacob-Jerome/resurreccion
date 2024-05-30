@@ -6,7 +6,6 @@ border: 0;
 box-sizing: border-box;
 transition: 1s ease;
 
-
 }
 body {
     display: flex;
@@ -19,7 +18,8 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
- 
+    background-color:light-blue;
+
 }
 
 .flex-container {
@@ -29,10 +29,9 @@ body {
     display: flex;
     flex-wrap: wrap;
     gap: 2px;
-justify-content: space-around;
+  justify-content: space-around;
 background-image: url ('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/i/364fc4dd-59ca-4b2c-86ff-9d8e42dff048/d2n4hgl-75f97c05-b04f-49e2-9d93-df3e840da691.jpg')
  background-repeat: no-repeat;
-background-color: black;
 background-size: cover;
 background-position: center;
 }
