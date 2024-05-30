@@ -1,0 +1,187 @@
+
+*{
+margin: 0;
+padding: 0 ;
+border: 0;
+box-sizing: border-box;
+transition: 1s ease;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Josefin Sans', sans-serif;
+    color: white;
+    text-shadow: 1px 1px 2px #000000;
+    font-size: x-large;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(./img/pokemon-ball-house.jpg);
+    background-repeat: no-repeat;
+    background-color: black;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.flex-container {
+    width: 90vw;
+    padding: 20px;
+    margin: 20px auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2px;
+    
+    
+    justify-content: space-around;
+}
+
+.box img {
+    max-width: 75%;
+    max-height: 100%;
+    object-fit: cover;
+}
+.box {
+    flex: 1 1 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    padding: 10px;
+    position: relative;
+}
+
+
+
+.box span {
+    display: none;
+    margin-left: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.box .type {
+    display: none;
+}
+
+.bg-psyduck { background-color: #FFEB3B; }
+.bg-pidgey { background-color: #90A4AE; }
+.bg-jigglypuff { background-color: #F8BBD0; }
+.bg-zubat { background-color: #3F51B5; }
+.bg-meowth { background-color: #FFC107; }
+.bg-bullbasaur { background-color: #4CAF50; }
+.bg-charmander { background-color: #FF5722; }
+.bg-snorlax { background-color: #607D8B; }
+.bg-mew { background-color: #E1BEE7; }
+.bg-pikachu { background-color: #FFEB3B; }
+.bg-eevee { background-color: #795548; }
+.bg-weedle { background-color: #CDDC39; }
+
+
+
+@media (min-width: 800px) {
+    .box .pokeball {
+        display: none;
+    }
+}
+
+@media (max-width: 800px) {
+    .flex-container {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .box {
+        flex: 1 1 auto;
+        justify-content: flex-start;
+        padding: 10px;
+        text-align: center;
+        position: relative; 
+        transition: background-image 0.3s ease;
+        background-size: contain;
+    }
+
+    .box:hover {
+        background-image: url('https://media.tenor.com/kaZ1ypmDh9IAAAAM/pmd2-pokemon.gif'); 
+        background-size: cover;
+        background-position: center;
+    }
+
+    .box img {
+        max-width: 50px;
+        max-height: 50px;
+    }
+
+    .box span {
+        display: inline;  
+        flex: 1;
+        text-align: center;
+    }
+
+    .box .pokeball {
+        width: 35px;  
+        height: 35px; 
+        margin-left: 10px;
+    }
+}
+
+    @media (max-width: 520px) {
+    .box {
+        width: 90%;
+        height: auto;
+        display: flex; 
+        flex-direction: column; 
+        justify-content: center; 
+        align-items: center;
+        text-align: center;
+    }
+      
+    .box img {
+        display: block;
+        margin: 0 auto;
+        max-width: 110px;
+        max-height: 110px;
+        align-items: center;
+    }
+      
+    .box span {
+        display: block;
+        margin-top: 10px;
+        text-align: center;
+    }
+      
+    .box .pokeball  {
+        display: none;
+    }
+
+    .box:hover {
+        background-image: url('https://media.tenor.com/kaZ1ypmDh9IAAAAM/pmd2-pokemon.gif'); 
+        background-size: cover;
+        background-position: center;
+    }
+
+    .box .type {
+        align-items: center;
+        display: block;
+        margin-top: 5px;
+        font-size: medium;
+        text-shadow: 1px 1px 1px #000000;
+        color: white;
+        padding: 5px 50px;
+        border-radius: 10px;
+        margin: 2 2px;
+        box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 1);
+        width: 70px; 
+        text-align: center; 
+    }
+}
+.water-type { background-color: #007BFF; }
+.electric-type { background-color: #FFBF00; }
+.fire-type { background-color: red; }
+.poison-type { background-color: #A040A0; }
+.grass-type { background-color: #78C850; }
+.normal-type { background-color:#A9A9A9; }
+.psychic-type { background-color: pink; }
+.fairy-type { background-color: #FF77FF; }
+.flying-type { background-color: #81b8ee; }
+.bug-type { background-color: #8A9A5B; }
