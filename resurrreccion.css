@@ -17,7 +17,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url ('https://images.wallpapersden.com/image/download/pokemon-pikachu-art_a25tbW6UmZqaraWkpJRmbmdlrWZlbWU.jpg');
+    background-image: url ("bg.png");
     background-repeat: no-repeat;
     background-color: black;
     background-size: cover;
