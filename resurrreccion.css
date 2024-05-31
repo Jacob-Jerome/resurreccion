@@ -169,31 +169,20 @@ justify-content: space-around;
         font-size: medium;
         text-shadow: 1px 1px 1px #000000;
         color: white;
-        padding: 5px 50px;
+        padding: 5px 8px;
         border-radius: 10px;
         margin: 2 2px;
-        box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 1);
         width: 70px; 
         text-align: center; 
     }
 }
-.water-type { background-color: #007BFF
-            text-align:center; }
-.electric-type { background-color: #FFBF00
-                text-align:center; }
-.fire-type { background-color: red
-            text-align:center; }
-.poison-type { background-color: #A040A0
-              text-align:center; }
-.grass-type { background-color: #78C850
-             text-align:center; }
-.normal-type { background-color:#A9A9A9
-              text-align:center; }
-.psychic-type { background-color: pink
-               text-align:center; }
-.fairy-type { background-color: #FF77FF
-             text-align:center; }
-.flying-type { background-color: #81b8ee
-              text-align:center; }
-.bug-type { background-color: #8A9A5B
-           text-align:center; }
+.water-type { background-color: #007BFF; }
+.electric-type { background-color: #FFBF00;}
+.fire-type { background-color: red; }
+.poison-type { background-color: #A040A0;}
+.grass-type { background-color: #78C850;}
+.normal-type { background-color:#A9A9A9;}
+.psychic-type { background-color: pink;}
+.fairy-type { background-color: #FF77FF;}
+.flying-type { background-color: #81b8ee;}
+.bug-type { background-color: #8A9A5B;}
