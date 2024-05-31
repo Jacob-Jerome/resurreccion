@@ -177,13 +177,23 @@ justify-content: space-around;
         text-align: center; 
     }
 }
-.water-type { background-color: #007BFF; }
-.electric-type { background-color: #FFBF00; }
-.fire-type { background-color: red; }
-.poison-type { background-color: #A040A0; }
-.grass-type { background-color: #78C850; }
-.normal-type { background-color:#A9A9A9; }
-.psychic-type { background-color: pink; }
-.fairy-type { background-color: #FF77FF; }
-.flying-type { background-color: #81b8ee; }
-.bug-type { background-color: #8A9A5B; }
+.water-type { background-color: #007BFF
+            text-align:center; }
+.electric-type { background-color: #FFBF00
+                text-align:center; }
+.fire-type { background-color: red
+            text-align:center; }
+.poison-type { background-color: #A040A0
+              text-align:center; }
+.grass-type { background-color: #78C850
+             text-align:center; }
+.normal-type { background-color:#A9A9A9
+              text-align:center; }
+.psychic-type { background-color: pink
+               text-align:center; }
+.fairy-type { background-color: #FF77FF
+             text-align:center; }
+.flying-type { background-color: #81b8ee
+              text-align:center; }
+.bug-type { background-color: #8A9A5B
+           text-align:center; }
