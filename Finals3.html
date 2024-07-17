@@ -14,17 +14,22 @@
   <nav class="nav">
     <div class="container">
       <div class="navbar">
-        <h3>Jacob Resurreccion</h3>
-        <a href="tel:+09914237723" class="btn">Contact Me</a>
-        <ul class="list">
-          <li class="item"><a href="#" class="navigation-links">Home</a></li>
-          <li class="item"><a href="#about" class="navigation-links">About</a></li>
-          <li class="item"><a href="#skills" class="navigation-links">Skill</a></li>
-          <li class="item"><a href="#portfolio" class="navigation-links">My Works</a></li>
-          <li class="item"><a href="#contact" class="navigation-links">Contacts</a></li>
+  <h3>Jacob Resurreccion</h3>
+  <a href="tel:+09914237723" class="btn">Contact Me</a>
+  <div class="menu-toggle">
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+  <ul class="list">
+    <li class="item"><a href="#" class="navigation-links">Home</a></li>
+    <li class="item"><a href="#about" class="navigation-links">About</a></li>
+    <li class="item"><a href="#skills" class="navigation-links">Skill</a></li>
+    <li class="item"><a href="#portfolio" class="navigation-links">My Works</a></li>
+    <li class="item"><a href="#contact" class="navigation-links">Contacts</a></li>
+  </ul>
+</div>
 
-        </ul>
-      </div>
     </div>
   </nav>
   <section class="hero">
@@ -82,27 +87,7 @@
         a significant contribution to the subject of cybersecurity.
 
       </p>
-      <div class="myworks">
-        <div class="box">
-          <h3> Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum earum corrupti </h3>
-          <p>
-           Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eaque placeat dignissimos ipsum ad dicta repudiandae, soluta pariatur qui vero dolores.
-          </p>
-        </div>
-        <div class="box">
-          <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum earum corrupti</h3>
-          <p>
-           Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eaque placeat dignissimos ipsum ad dicta repudiandae, soluta pariatur qui vero dolores.
-          </p>
-        </div>
-        <div class="box">
-          <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum earum corrupti s</h3>
-          <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eaque placeat dignissimos ipsum ad dicta repudiandae, soluta pariatur qui vero dolores.
-          </p>
-        </div>
-      </div>
-    </div>
+     
   </section>
 
   <section class="skills" id="skills">
@@ -228,7 +213,7 @@
       </div>
     </div>
   </section>
- 
+
   <section class="contact" id="contact">
     <div class="container">
       <h2 class="sectionhead">Contact Me</h2>
@@ -250,6 +235,29 @@
       </form>
     </div>
   </section>
+  <section class="faq" id="">
+    <div class="container">
+      <h1 class="sectionhead" id="ftext">FAQ</h1>
+      <br>
+      <h3 class="sectiontitle">(Frequently Asked Questions)</h3>
+      <br>
+
+      <div class="faq--container">
+        <div class="box" id="faq1">
+          <h3 class="faq-question">What is interesting about Cybersecurity?</h3>
+          <p class="faq-answer">Cybersecurity is a dynamic field that is constantly evolving due to emerging cyber threats and technologies. It requires professionals to stay updated with the latest trends and techniques to protect digital assets.</p>
+        </div>
+        <div class="box" id="faq2">
+          <h3 class="faq-question">How can I contact you?</h3>
+          <p class="faq-answer">You can contact me through the form in the Contact Me section or call me directly at +09914237723.</p>
+        </div>
+        <div class="box" id="faq3">
+          <h3 class="faq-question">What projects have you worked on?</h3>
+          <p class="faq-answer">I have worked on various technical summative assessments and IT projects, which are displayed in the portfolio section.</p>
+        </div>
+      </div>
+    </div>
+  </section>
   
   <footer>
     <div class="container">
@@ -260,6 +268,14 @@
     </div>
 
   </footer>
+  <script>
+    const menuToggle = document.querySelector('.menu-toggle');
+    const navList = document.querySelector('.navbar ul');
+  
+    menuToggle.addEventListener('click', () => {
+      navList.classList.toggle('active');
+    });
+  </script>
 </body>
 
 </html>
